@@ -4,6 +4,8 @@
 
 A starter template for building Next.js applications with Shadcn/ui. This project is designed to provide a solid foundation for your next project, with a focus on code quality, developer experience, and performance.
 
+![Tauri + Next.js](public/tauri-next-starter.png)
+
 ## About The Project
 
 This starter template includes:
