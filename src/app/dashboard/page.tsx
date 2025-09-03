@@ -1,6 +1,7 @@
 import PageContainer from '@/components/layout/page-container';
 import { Heading } from '@/components/ui/heading';
 import { Separator } from '@/components/ui/separator';
+import Image from 'next/image';
 
 export const metadata = {
   title: 'Dashboard'
@@ -8,15 +9,22 @@ export const metadata = {
 
 export default async function Page() {
   return (
-    <PageContainer scrollable={false}>
-      <div className='flex flex-1 flex-col space-y-4'>
-        <div className='flex items-start justify-between'>
+    <PageContainer>
+      <div className='flex flex-1 flex-col items-center justify-center space-y-4'>
+        <div className='text-center'>
           <Heading
-            title='Next Starter'
-            description='next and shadcn starter template'
+            title='Tauri + Next.js'
+            description='Tauri and Next.js starter template'
           />
         </div>
         <Separator />
+        <Image
+          src='/tauri-next-starter.png'
+          alt='Tauri + Next.js'
+          width={1000}
+          height={1000}
+          className='mx-auto'
+        />
       </div>
     </PageContainer>
   );
