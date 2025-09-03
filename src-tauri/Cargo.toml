@@ -1,8 +1,8 @@
 [package]
-name = "app"
-version = "0.1.0"
-description = "A Tauri App"
-authors = ["you"]
+name = "tauri-next-starter"
+version = "1.0.0"
+description = "Tauri + Next Starter"
+authors = ["thiz"]
 license = ""
 repository = ""
 edition = "2021"
